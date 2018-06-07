@@ -1,0 +1,4 @@
+#!/bin/sh
+
+clang++ main.cpp -o run -std=gnu++11 -Wshift-op-parentheses -lrt -g -O0
+#gcc main.cpp -o run -std=gnu++11
